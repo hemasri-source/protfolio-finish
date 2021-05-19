@@ -1,0 +1,65 @@
+.sheet{
+background-color: bisque;
+display:flex;
+justify-content: space-between;
+}
+
+.images{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logos{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    color:#f6f8;
+    margin-left: 650px;
+}
+p,h2{
+    text-align: center;
+    font-style: italic;
+    color:lavender;
+    font-weight: bold;
+}
+body{
+    background-image: url("abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 110%;
+}
+ol{
+    color:sandybrown;
+    font-size: 140%;
+}
+.ref a{
+    margin-left: 50px;
+}
+a:link{
+    color:cyan
+}
+a:visited{
+    color:darkred
+}
+.item{
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.3;
+}
+.list{
+    color:seagreen
+}
